@@ -14,6 +14,7 @@ let woodOverTime = 0
 let houseTotal = 0
 let housesOverTime = 0
 let villagers = 1
+let houseCost = 25
 
 
 function render() {
@@ -23,8 +24,7 @@ function render() {
   console.log(woodTotal)
   console.log(woodOverTime)
   console.log(houseTotal)
-  if(woodOverTime > 100){
-    house.innerText = 'Build House - 50 wood'}
+  house.innerText = `Build House - ${houseCost} wood`
 }
 
 function addWood() {
@@ -34,13 +34,12 @@ function addWood() {
 }
 
 function addHouse() {
-  if(woodTotal >= 25) {
-    woodTotal = woodTotal - 25
-  } else if (woodTotal > 100){
-    woodTotal= woodTotal - 50
+  if ((woodTotal - houseCost) >= 0) {
+  woodTotal = woodTotal - houseCost
   } else {
     return
   }
+  houseCost = houseCost + 20
   villagers = villagers + 3
   houseTotal++
   housesOverTime++
