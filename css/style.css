@@ -1,0 +1,27 @@
+header{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #F2F5EA;
+}
+body{
+  background-color: #2C363F;
+}
+
+#wood, #house {
+  margin: 10px;
+  justify-content: center;
+  background-color: #F2F5EA;
+  color: #2C363F;
+}
+
+#wood-count, #house-count, #villager-count{
+  color: #F2F5EA;
+  margin: 0 10px;
+}
+
+#buttons{
+  display: block;
+  color: #2C363F;
+  align-items: center;
+  justify-content: center;
+}
