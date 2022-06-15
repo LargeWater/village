@@ -37,7 +37,7 @@ function addHouse() {
   if ((woodTotal - houseCost) >= 0) {
   woodTotal = woodTotal - houseCost
   } else {
-    return
+  return
   }
   houseCost = houseCost + 20
   villagers = villagers + 3
