@@ -9,4 +9,4 @@
 - hunger
 - random events (i.e. attacks that kill villagers, destroy houses, eat food, etc.)
 
-## Heavily inspired by [A Dark Room](https://adarkroom.doublespeakgames.com/), but ultimately going a *very* different route. 
+# Heavily inspired by [A Dark Room](https://adarkroom.doublespeakgames.com/), but ultimately going a *very* different route. 
